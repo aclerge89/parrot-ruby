@@ -1,2 +1,10 @@
-# Create method `parrot` that outputs a given phrase and
-# returns the phrase
+def parrot(wildbird = "Squawk!")
+  puts "#{wildbird}"
+  "#{wildbird}"
+end
+
+
+def door(wood="creak!")
+  puts "#{wood}"
+  "#{wood}"
+end
